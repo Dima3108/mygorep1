@@ -1,4 +1,4 @@
-module github.com/Dima3108/mygorep1
+module mygorep1
 
 go 1.12
 
