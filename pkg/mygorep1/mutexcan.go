@@ -1,4 +1,4 @@
-package main
+package mygorep1
 
 import (
 	"fmt"
