@@ -1,4 +1,4 @@
-package mygorep
+package mygorep1
 
 /*
 https://github.com/kchugalinskiy/education2024-1
