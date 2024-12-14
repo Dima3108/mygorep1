@@ -3,9 +3,7 @@ package mygorep1
 /*
 https://github.com/kchugalinskiy/education2024-1
 */
-import (
-	"fmt"
-)
+
 
 type MyMutex struct {
 	//exitCh = make(chan interface{})
