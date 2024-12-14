@@ -19,12 +19,12 @@ func (m MyMutex) Lock() {
 	//*&m.thCount++
 	//m.thCount.Add(1)
 	m.canal_ <- 1
-	fmt.Println("lock")
+	//fmt.Println("lock")
 }
 func (m MyMutex) Unlock() {
 	//m.thCount.Add(-1)
 	m.canal_ <- (-1)
-	fmt.Println("unlock")
+	//fmt.Println("unlock")
 }
 func (m MyMutex) Wait() {
 	//sum := 0
